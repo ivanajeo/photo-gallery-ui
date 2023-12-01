@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 32px;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid orange;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 500px;
+    max-width: 1400px;
+    gap: 16px;
+    padding: 14px 0px;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+/* .gallery::after {
+    content: "";
+    width: 350px;
+} */
